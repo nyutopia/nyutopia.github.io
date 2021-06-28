@@ -5,17 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title> - 我的全新 Hugo 网站</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="" />
+        <title>Hugo搭建个人博客 - 我的全新 Hugo 网站</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="Hugo搭建个人博客" />
 <meta property="og:description" content="hugo搭建个人博客 1. 安装Hugo 1.1 下载 在hugo release界面下载对应的操作系统版本的Hugo二进制文件（Hugo或者Hugo.exe" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" /><meta property="og:image" content="https://nyutopia.github.io/"/><meta property="article:section" content="posts" />
-
-
+<meta property="article:published_time" content="2021-06-28T21:17:17&#43;08:00" />
+<meta property="article:modified_time" content="2021-06-28T21:17:17&#43;08:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nyutopia.github.io/"/>
 
-<meta name="twitter:title" content=""/>
+<meta name="twitter:title" content="Hugo搭建个人博客"/>
 <meta name="twitter:description" content="hugo搭建个人博客 1. 安装Hugo 1.1 下载 在hugo release界面下载对应的操作系统版本的Hugo二进制文件（Hugo或者Hugo.exe"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -24,13 +24,13 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "",
+        "headline": "Hugo搭建个人博客",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/nyutopia.github.io\/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2\/"
-        },"genre": "posts","wordcount":  649 ,
-        "url": "https:\/\/nyutopia.github.io\/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2\/","publisher": {
+        },"genre": "posts","wordcount":  699 ,
+        "url": "https:\/\/nyutopia.github.io\/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2\/","datePublished": "2021-06-28T21:17:17+08:00","dateModified": "2021-06-28T21:17:17+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -104,9 +104,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX"></h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">Hugo搭建个人博客</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>nyan</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 649 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-06-28">2021-06-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 699 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="true">
                 <div class="details-summary toc-title">
@@ -125,8 +125,13 @@
     <li><a href="#3-安装主题">3. 安装主题</a></li>
     <li><a href="#4-创建文章">4. 创建文章</a></li>
     <li><a href="#5-本地启动网站">5. 本地启动网站</a></li>
-    <li><a href="#6-部署到github">6. 部署到GitHub</a></li>
-    <li><a href="#部署到gitee">部署到gitee</a></li>
+    <li><a href="#6-部署到github">6. 部署到GitHub</a>
+      <ul>
+        <li><a href="#61-创建github仓库">6.1 创建github仓库</a></li>
+        <li><a href="#62-运行hugo">6.2 运行hugo</a></li>
+      </ul>
+    </li>
+    <li><a href="#7-部署到gitee">7. 部署到gitee</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h1 id="hugo搭建个人博客">hugo搭建个人博客</h1>
@@ -200,6 +205,12 @@ git clone https://github.com/dillonzq/LoveIt.git
 </div>
 </div><p>查看<code>http://localhost:1313</code>.</p>
 <h2 id="6-部署到github">6. 部署到GitHub</h2>
+<h3 id="61-创建github仓库">6.1 创建github仓库</h3>
+<blockquote>
+<p>Head over to <a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a> and <a href="https://github.com/new" target="_blank" rel="noopener noreffer">create a new public repository</a> named <em>username</em>.github.io, where <em>username</em> is your username (or organization name) on GitHub.</p>
+</blockquote>
+<p>参考<a href="https://pages.github.com/" target="_blank" rel="noopener noreffer">github pages</a></p>
+<h3 id="62-运行hugo">6.2 运行hugo</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -227,7 +238,7 @@ git remote add origin git@github.com:nyutopia/nyutopia.github.io.git
 git push -u origin master
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="部署到gitee">部署到gitee</h2>
+</div><h2 id="7-部署到gitee">7. 部署到gitee</h2>
 <p><a href="https://gitee.com/help/articles/4136#article-header0" target="_blank" rel="noopener noreffer">gitee静态页面托管</a></p>
 <blockquote>
 <ol>
@@ -240,16 +251,16 @@ git push -u origin master
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="img/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2.assets/image-20210628200037954.png"
-        data-srcset="img/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2.assets/image-20210628200037954.png, img/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2.assets/image-20210628200037954.png 1.5x, img/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2.assets/image-20210628200037954.png 2x"
+        data-src="typoraIMG/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2/image-20210628200037954-4886049-4886262.png"
+        data-srcset="typoraIMG/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2/image-20210628200037954-4886049-4886262.png, typoraIMG/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2/image-20210628200037954-4886049-4886262.png 1.5x, typoraIMG/hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2/image-20210628200037954-4886049-4886262.png 2x"
         data-sizes="auto"
-        alt="img/hugo搭建个人博客.assets/image-20210628200037954.png"
+        alt="typoraIMG/hugo搭建个人博客/image-20210628200037954-4886049-4886262.png"
         title="image-20210628200037954" /></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 0001-01-01</span>
+                <span>更新于 2021-06-28</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -258,7 +269,7 @@ git push -u origin master
                             <a class="link-to-markdown" href="/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.md" target="_blank">阅读原始文档</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="" data-via="xxxx"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title=""><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title=""><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title=""><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="Hugo搭建个人博客" data-via="xxxx"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="Hugo搭建个人博客" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="Hugo搭建个人博客"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="Hugo搭建个人博客"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="Hugo搭建个人博客" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="Hugo搭建个人博客" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-title="Hugo搭建个人博客"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>

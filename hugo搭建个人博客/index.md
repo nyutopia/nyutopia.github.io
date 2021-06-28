@@ -1,4 +1,7 @@
-# 
+# Hugo搭建个人博客
+
+
+
 
 # hugo搭建个人博客
 
@@ -65,6 +68,14 @@ hugo serve
 
 ## 6. 部署到GitHub
 
+### 6.1 创建github仓库
+
+> Head over to [GitHub](https://github.com/) and [create a new public repository](https://github.com/new) named *username*.github.io, where *username* is your username (or organization name) on GitHub.
+
+参考[github pages](https://pages.github.com/)
+
+### 6.2 运行hugo
+
 ```sh
 hugo --baseURL="https://nyutopia.github.io/"
 ```
@@ -82,7 +93,7 @@ git push -u origin master
 
 
 
-## 部署到gitee
+## 7. 部署到gitee
 
 [gitee静态页面托管](https://gitee.com/help/articles/4136#article-header0)
 
@@ -90,4 +101,5 @@ git push -u origin master
 >
 >    答：如果你想你的 pages 首页访问地址不带二级目录，如ipvb.gitee.io，**你需要建立一个与自己个性地址同名的仓库**，如 https://gitee.com/ipvb 这个用户，想要创建一个自己的站点，但不想以子目录的方式访问，想以`ipvb.gitee.io`直接访问，那么他就可以创建一个名字为`ipvb`的仓库 https://gitee.com/ipvb/ipvb 部署完成后，就可以以 [https://ipvb.gitee.io](https://ipvb.gitee.io/) 进行访问了。
 
-![image-20210628200037954](img/hugo搭建个人博客.assets/image-20210628200037954.png)
+![image-20210628200037954](typoraIMG/hugo搭建个人博客/image-20210628200037954-4886049-4886262.png)
+
