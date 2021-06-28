@@ -1,0 +1,9 @@
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://nyutopia.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nyutopia.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nyutopia.github.io/posts/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nyutopia.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nyutopia.github.io/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
