@@ -1,9 +1,9 @@
-# Hugo搭建个人博客
+# 个人博客
 
 
 
 
-# hugo搭建个人博客
+#  hugo搭建个人博客
 
 ## 1. 安装Hugo
 
@@ -95,12 +95,14 @@ git push -u origin master
 
 ## 7. 部署到gitee
 
+### 7.1 创建gitee仓库
+
 [gitee静态页面托管](https://gitee.com/help/articles/4136#article-header0)
 
 > 1. 如何创建一个首页访问地址不带二级目录的 pages，如ipvb.gitee.io？
 >
 >    答：如果你想你的 pages 首页访问地址不带二级目录，如ipvb.gitee.io，**你需要建立一个与自己个性地址同名的仓库**，如 https://gitee.com/ipvb 这个用户，想要创建一个自己的站点，但不想以子目录的方式访问，想以`ipvb.gitee.io`直接访问，那么他就可以创建一个名字为`ipvb`的仓库 https://gitee.com/ipvb/ipvb 部署完成后，就可以以 [https://ipvb.gitee.io](https://ipvb.gitee.io/) 进行访问了。
 
-![图片1](/typoraIMG/hugo搭建个人博客/image-20210628200037954.png)
+![image-20210629103106814](https://gitee.com/nypicture_bed/draw_bed_1/raw/master/20210629103106.png)
 
 
